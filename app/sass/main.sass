@@ -298,6 +298,78 @@ section
 		display: inline-block
 
 
+.second-section
+	padding: $gutter/2 0
+
+.news-wrap
+	padding-bottom: $gutter/2
+	.pattern
+		&::before
+			display: none
+	.overlay
+		&::before
+			opacity: 0.4
+
+.item-news
+	min-height: 280px
+	margin: $gutter/2 0
+	color: $text-color
+	&-content
+		border:
+			left: 1px solid #dfdfdf
+			bottom: 1px solid #dfdfdf
+		z-index: 1
+		position: absolute
+		bottom: 0
+		background-color: #ffffff
+		width: 80%
+		padding: $gutter/2
+		h3
+			font-size: 17px
+			line-height: 1.2
+			margin: 0
+	&:hover
+		h3
+			text-decoration: underline
+			
+.date
+	font-size: 13px
+	color: $accent
+	font-family: baron-g, sans-serif
+	font-weight: bold
+
+.side-box
+	margin-bottom: $gutter
+	text-align: center
+	.img-responsive
+		display: inline-block
+
+
+.dark-section
+	padding: 30px 0
+	background-color: $dark
+	h2
+		a
+			color: #ffffff
+
+.col-item
+	margin: 12px 0 15px
+	a
+		text-decoration: none
+		transition: color .25s ease 
+		&:hover, .hover
+			text-decoration: underline
+	.item-comments
+		margin-top: 2px
+		.fa, .item-comments-count
+			color: #45505a
+		.fa
+			font-size: 12px
+
+		
+
+
+
 
 
 	
